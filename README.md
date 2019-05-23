@@ -8,8 +8,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-* **[PostgreSQL]**(https://www.postgresql.org/)
-* **[Node.js]**(https://nodejs.org/)
+* [PostgreSQL](https://www.postgresql.org/)
+* [Node.js](https://nodejs.org/)
 
 ### Installing
 
