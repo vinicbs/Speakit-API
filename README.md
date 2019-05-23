@@ -75,6 +75,11 @@ nodemon index.js
 * **MINOR**: Minor changes that probably won't affect any functionalities
 * **FIX**: Bugfixes
 
+## External Modules Documentation
+
+* [db-migrate](https://db-migrate.readthedocs.io/)
+* [knex.js](https://knexjs.org/)
+
 ## Author
 
 **Vinicius C. B. dos Santos**
