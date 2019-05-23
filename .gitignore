@@ -2,6 +2,7 @@
 node_modules
 
 # local constants
-hidenConstants.js
-
 package-lock.json
+
+# environment variables
+.env

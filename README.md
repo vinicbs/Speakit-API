@@ -49,18 +49,21 @@ Install modules
 npm install
 ```
 
-Create a file named *hidenConstants.js* in the main project folder and copy the code below to setup the database
+Create a file named *.env* in the main project folder and copy the code below to setup the database
 
 ```
-module.exports = {
-    db: {
-        user: *your database username*
-        password: *your database password*
-    }
-}
+DB_HOST=*path to your localhost*
+DB_USER=*database username*
+DB_PASS=*database password*
 ```
 
-Save file and run
+Run the DB migrations
+
+```
+node node_modules/db-migrate/bin/db-migrate up
+```
+
+Run to start the API
 
 ```
 nodemon index.js

@@ -1,4 +1,3 @@
-var hidenConstants = require('./hidenConstants')
 const knex = require('knex')({
     client: 'postgres',
     // Uncomment to enable SQL query logging in console.
@@ -7,8 +6,8 @@ const knex = require('knex')({
     //*** Local
     connection: {
         host: '127.0.0.1',
-        user: hidenConstants.db.user,
-        password: hidenConstants.db.password,
+        user: process.env.DB_USER,
+        password: process.env.DB_PASS,
         database: 'speak-it',
         charset: 'utf8',
     }
