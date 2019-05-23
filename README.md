@@ -82,5 +82,6 @@ nodemon index.js
 
 ## Author
 
-###Vinicius C. B. dos Santos
+### Vinicius C. B. dos Santos
+
 * [linkedin](https://www.linkedin.com/in/viniciuscbsantos/)
